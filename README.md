@@ -3,3 +3,6 @@
 
 I will not update this, since this project was completely dropped and I have lost interest in it.
 Do not expect updates, I only uploaded this for archival purposes.
+
+# Disclaimer
+this is garbage lol
