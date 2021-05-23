@@ -1,0 +1,88 @@
+body {
+	/* Wallpaper */
+	background-image: url("wallp.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	/* Set the margin and padding to none (in case) */
+	padding: 0;
+	margin: 0;
+	/* Use Windows Fonts */
+	font-family: "Segoe UI", "Segoe UI Semilight", sans-serif;
+	/* Disable useless hyperlink highlights */
+	text-decoration: none;
+}
+
+#taskbar {
+	/* Windows 10 Taskbar */
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	transform: translate(0%, 9%);
+	background-color: #CCE6F1;
+	height: 40;
+	display: inline-block;
+}
+
+#taskbar img {
+	/* Remove unneccesary spacing from between taskbar objects */
+	float: left;
+}
+
+#taskbar .taskbar-container-two {
+	/* Remove unneccesary spacing from between taskbar status elements */
+	float: right;
+}
+
+#about-window {
+	/* Define About Windows app properties */
+	box-shadow: 0 0 .40em .40em rgba(0, 0, 0, 0.10);
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	width: 540px;
+	height: 420px;
+	background-color: #F0F0F0;
+	transform: translate(580px, 150px);
+}
+
+#about-window .about-window-text span {
+	font-size: 12px;
+	padding-left: 40px;
+	padding-right: 40px;
+	display: block;
+}
+
+hr {
+	/* Separation between the Windows 10 logo and the text */
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+}
+
+#about-window .about-window-container .about-window-header span {
+	padding-left: 10px;
+	padding-top: 2px;
+	text-align: center;
+	font-size: 14px;
+	background-color: white;
+	width: 300px;
+
+}
+
+#about-window .about-window-container .about-window-header {
+	width: 100%;
+	background-color: white;
+	height: 30px;
+}
+
+#about-window .about-window-container img {
+	padding: 0;
+	margin: 0;
+	width: 390px;
+	height: 80px;
+	transform: translate(18%, 15%);
+}
